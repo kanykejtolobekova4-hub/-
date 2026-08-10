@@ -1,421 +1,609 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-theme="light">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="LUXE MARCHÉ — Premium luxury supermarket. Curated gourmet groceries, organic produce, and artisanal delicacies delivered to your door.">
-  <title>LUXE MARCHÉ — Premium Luxury Supermarket</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LUXE MARCHÉ — Premium luxury supermarket. Curated gourmet groceries, organic produce, and artisanal delicacies delivered to your door."
+    />
+    <title>LUXE MARCHÉ — Premium Luxury Supermarket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <body></body>
 
-    <body>
-        
-    </body>
-
-  <!-- ===== PRELOADER ===== -->
-  <div class="preloader" id="preloader">
-    <div class="preloader-inner">
-      <div class="preloader-ring"></div>
-      <div class="preloader-logo">LM</div>
-      <p class="preloader-text">LUXE MARCHÉ</p>
-      <span class="preloader-sub">Curating Excellence</span>
-    </div>
-  </div>
-
-  <!-- ===== ANNOUNCEMENT BAR ===== -->
-  <div class="announcement-bar">
-    <div class="container announcement-inner">
-      <span class="announcement-text">
-        <i class="fa-solid fa-truck-fast"></i>
-        Complimentary delivery on orders over $100
-      </span>
-      <span class="announcement-text announcement-right">
-        <i class="fa-solid fa-gem"></i>
-        Members enjoy exclusive private tastings
-      </span>
-    </div>
-  </div>
-
-  <!-- ===== HEADER ===== -->
-  <header class="header" id="header">
-    <div class="container header-inner">
-      <a href="#home" class="logo">
-        <span class="logo-mark">LM</span>
-        <span class="logo-text">LUXE <em>MARCHÉ</em></span>
-      </a>
-
-      <nav class="nav" id="nav">
-        <ul class="nav-list">
-          <li><a href="#home" class="nav-link active">Home</a></li>
-          <li><a href="#categories" class="nav-link">Categories</a></li>
-          <li><a href="#products" class="nav-link">Products</a></li>
-          <li><a href="#offers" class="nav-link">Offers</a></li>
-          <li><a href="#reviews" class="nav-link">Reviews</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-        <div class="nav-close" id="navClose"><i class="fa-solid fa-xmark"></i></div>
-      </nav>
-
-      <div class="header-actions">
-        <button class="icon-btn search-trigger" id="searchTrigger" aria-label="Search">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-        <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-          <i class="fa-solid fa-moon"></i>
-        </button>
-        <button class="icon-btn wishlist-trigger" id="wishlistTrigger" aria-label="Wishlist">
-          <i class="fa-regular fa-heart"></i>
-          <span class="badge-count" id="wishlistCount">0</span>
-        </button>
-        <button class="icon-btn cart-trigger" id="cartTrigger" aria-label="Cart">
-          <i class="fa-solid fa-bag-shopping"></i>
-          <span class="badge-count" id="cartCount">0</span>
-        </button>
-        <button class="hamburger" id="hamburger" aria-label="Menu">
-          <span></span><span></span><span></span>
-        </button>
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader" id="preloader">
+      <div class="preloader-inner">
+        <div class="preloader-ring"></div>
+        <div class="preloader-logo">LM</div>
+        <p class="preloader-text">LUXE MARCHÉ</p>
+        <span class="preloader-sub">Curating Excellence</span>
       </div>
     </div>
-  </header>
 
-  <!-- ===== SEARCH OVERLAY ===== -->
-  <div class="search-overlay" id="searchOverlay">
-    <div class="search-overlay-inner">
-      <button class="search-close" id="searchClose"><i class="fa-solid fa-xmark"></i></button>
-      <div class="search-box">
-        <i class="fa-solid fa-magnifying-glass search-box-icon"></i>
-        <input type="text" id="searchInput" placeholder="Search for truffles, wagyu, champagne..." autocomplete="off">
-        <button class="search-submit" id="searchSubmit">Search</button>
+    <!-- ===== ANNOUNCEMENT BAR ===== -->
+    <div class="announcement-bar">
+      <div class="container announcement-inner">
+        <span class="announcement-text">
+          <i class="fa-solid fa-truck-fast"></i>
+          Complimentary delivery on orders over $100
+        </span>
+        <span class="announcement-text announcement-right">
+          <i class="fa-solid fa-gem"></i>
+          Members enjoy exclusive private tastings
+        </span>
       </div>
-      <div class="search-suggestions" id="searchSuggestions"></div>
     </div>
-  </div>
 
-  <!-- ===== HERO ===== -->
-  <section class="hero" id="home">
-    <div class="hero-slider">
-      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=2000&auto=format&fit=crop');">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-          <span class="hero-eyebrow reveal">The Art of Fine Grocery</span>
-          <h1 class="hero-title reveal">Where Every Ingredient<br>Is a <em>Masterpiece</em></h1>
-          <p class="hero-sub reveal">Hand-selected gourmet produce, rare delicacies, and artisanal treasures — curated for the discerning palate.</p>
-          <div class="hero-actions reveal">
-            <a href="#products" class="btn btn-gold">Explore Collection <i class="fa-solid fa-arrow-right"></i></a>
-            <a href="#offers" class="btn btn-ghost">Weekly Offers</a>
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+      <div class="container header-inner">
+        <a href="#home" class="logo">
+          <span class="logo-mark">LM</span>
+          <span class="logo-text">LUXE <em>MARCHÉ</em></span>
+        </a>
+
+        <nav class="nav" id="nav">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#categories" class="nav-link">Categories</a></li>
+            <li><a href="#products" class="nav-link">Products</a></li>
+            <li><a href="#offers" class="nav-link">Offers</a></li>
+            <li><a href="#reviews" class="nav-link">Reviews</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="nav-close" id="navClose">
+            <i class="fa-solid fa-xmark"></i>
           </div>
-          <div class="hero-stats reveal">
-            <div class="hero-stat"><strong>12k+</strong><span>Curated Products</span></div>
-            <div class="hero-stat"><strong>98%</strong><span>Client Satisfaction</span></div>
-            <div class="hero-stat"><strong>24h</strong><span>Express Delivery</span></div>
-          </div>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            class="icon-btn search-trigger"
+            id="searchTrigger"
+            aria-label="Search"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button
+            class="icon-btn theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle dark mode"
+          >
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <button
+            class="icon-btn wishlist-trigger"
+            id="wishlistTrigger"
+            aria-label="Wishlist"
+          >
+            <i class="fa-regular fa-heart"></i>
+            <span class="badge-count" id="wishlistCount">0</span>
+          </button>
+          <button
+            class="icon-btn cart-trigger"
+            id="cartTrigger"
+            aria-label="Cart"
+          >
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="badge-count" id="cartCount">0</span>
+          </button>
+          <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
         </div>
       </div>
-      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=2000&auto=format&fit=crop');">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-          <span class="hero-eyebrow">Farm to Table</span>
-          <h1 class="hero-title">Season's Finest<br><em>Harvest</em>, Delivered</h1>
-          <p class="hero-sub">Organic, sustainable, and impossibly fresh. Taste the difference of produce picked at the peak of perfection.</p>
-          <div class="hero-actions">
-            <a href="#products" class="btn btn-gold">Shop Fresh <i class="fa-solid fa-arrow-right"></i></a>
-            <a href="#categories" class="btn btn-ghost">Browse Categories</a>
-          </div>
-          <div class="hero-stats">
-            <div class="hero-stat"><strong>120+</strong><span>Local Farms</span></div>
-            <div class="hero-stat"><strong>100%</strong><span>Organic Options</span></div>
-            <div class="hero-stat"><strong>0</strong><span>Compromises</span></div>
-          </div>
+    </header>
+
+    <!-- ===== SEARCH OVERLAY ===== -->
+    <div class="search-overlay" id="searchOverlay">
+      <div class="search-overlay-inner">
+        <button class="search-close" id="searchClose">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass search-box-icon"></i>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for truffles, wagyu, champagne..."
+            autocomplete="off"
+          />
+          <button class="search-submit" id="searchSubmit">Search</button>
         </div>
-      </div>
-      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2000&auto=format&fit=crop');">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-          <span class="hero-eyebrow">Gourmet Selection</span>
-          <h1 class="hero-title">A World of<br><em>Rare Delicacies</em></h1>
-          <p class="hero-sub">From Japanese wagyu to hand-harvested truffles — an extraordinary collection for extraordinary tables.</p>
-          <div class="hero-actions">
-            <a href="#products" class="btn btn-gold">Discover Delicacies <i class="fa-solid fa-arrow-right"></i></a>
-            <a href="#reviews" class="btn btn-ghost">Client Stories</a>
-          </div>
-          <div class="hero-stats">
-            <div class="hero-stat"><strong>40+</strong><span>Countries Sourced</span></div>
-            <div class="hero-stat"><strong>5★</strong><span>Michelin Trusted</span></div>
-            <div class="hero-stat"><strong>24/7</strong><span>Concierge</span></div>
-          </div>
-        </div>
-      </div>
-      <div class="hero-nav">
-        <button class="hero-arrow" id="heroPrev"><i class="fa-solid fa-arrow-left"></i></button>
-        <div class="hero-dots" id="heroDots"></div>
-        <button class="hero-arrow" id="heroNext"><i class="fa-solid fa-arrow-right"></i></button>
+        <div class="search-suggestions" id="searchSuggestions"></div>
       </div>
     </div>
-  </section>
 
-  <!-- ===== CATEGORIES ===== -->
-  <section class="section categories" id="categories">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-eyebrow">Curated Departments</span>
-        <h2 class="section-title">Shop by <em>Category</em></h2>
-        <p class="section-desc">Eight exquisite departments, each curated by our master buyers.</p>
-      </div>
-      <div class="categories-grid" id="categoriesGrid">
-        <!-- Categories injected by JS -->
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== FEATURED PRODUCTS ===== -->
-  <section class="section products" id="products">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-eyebrow">Signature Selection</span>
-        <h2 class="section-title">Featured <em>Products</em></h2>
-        <p class="section-desc">Our most coveted items, refined and ready for your table.</p>
-      </div>
-
-      <!-- Filters -->
-      <div class="filters reveal" id="filters">
-        <div class="filter-categories" id="filterCategories">
-          <button class="filter-btn active" data-category="all">All</button>
-        </div>
-        <div class="filter-tools">
-          <div class="filter-group">
-            <label for="sortSelect"><i class="fa-solid fa-arrow-down-wide-short"></i></label>
-            <select id="sortSelect">
-              <option value="featured">Featured</option>
-              <option value="price-asc">Price: Low to High</option>
-              <option value="price-desc">Price: High to Low</option>
-              <option value="rating">Top Rated</option>
-              <option value="discount">Biggest Discount</option>
-            </select>
-          </div>
-          <button class="filter-toggle" id="filterToggle"><i class="fa-solid fa-sliders"></i> Filters</button>
-        </div>
-      </div>
-
-      <div class="products-layout">
-        <!-- Sidebar filters -->
-        <aside class="filter-sidebar" id="filterSidebar">
-          <div class="filter-block">
-            <h4>Price Range</h4>
-            <div class="price-range">
-              <input type="range" id="priceMin" min="0" max="50" value="0">
-              <input type="range" id="priceMax" min="0" max="50" value="50">
-              <div class="price-values">
-                <span id="priceMinLabel">$0</span>
-                <span id="priceMaxLabel">$50</span>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero-slider">
+        <div
+          class="hero-slide active"
+          style="
+            background-image: url(&quot;https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=2000&auto=format&fit=crop&quot;);
+          "
+        >
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <span class="hero-eyebrow reveal">The Art of Fine Grocery</span>
+            <h1 class="hero-title reveal">
+              Where Every Ingredient<br />Is a <em>Masterpiece</em>
+            </h1>
+            <p class="hero-sub reveal">
+              Hand-selected gourmet produce, rare delicacies, and artisanal
+              treasures — curated for the discerning palate.
+            </p>
+            <div class="hero-actions reveal">
+              <a href="#products" class="btn btn-gold"
+                >Explore Collection <i class="fa-solid fa-arrow-right"></i
+              ></a>
+              <a href="#offers" class="btn btn-ghost">Weekly Offers</a>
+            </div>
+            <div class="hero-stats reveal">
+              <div class="hero-stat">
+                <strong>12k+</strong><span>Curated Products</span>
+              </div>
+              <div class="hero-stat">
+                <strong>98%</strong><span>Client Satisfaction</span>
+              </div>
+              <div class="hero-stat">
+                <strong>24h</strong><span>Express Delivery</span>
               </div>
             </div>
           </div>
-          <div class="filter-block">
-            <h4>Brand</h4>
-            <div class="filter-options" id="brandFilter"></div>
-          </div>
-          <div class="filter-block">
-            <h4>Rating</h4>
-            <div class="filter-options" id="ratingFilter">
-              <label class="filter-option"><input type="radio" name="rating" value="0" checked> <span>All Ratings</span></label>
-              <label class="filter-option"><input type="radio" name="rating" value="4.5"> <span>4.5 <i class="fa-solid fa-star"></i> & above</span></label>
-              <label class="filter-option"><input type="radio" name="rating" value="4.7"> <span>4.7 <i class="fa-solid fa-star"></i> & above</span></label>
-              <label class="filter-option"><input type="radio" name="rating" value="4.9"> <span>4.9 <i class="fa-solid fa-star"></i> & above</span></label>
+        </div>
+        <div
+          class="hero-slide"
+          style="
+            background-image: url(&quot;https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=2000&auto=format&fit=crop&quot;);
+          "
+        >
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <span class="hero-eyebrow">Farm to Table</span>
+            <h1 class="hero-title">
+              Season's Finest<br /><em>Harvest</em>, Delivered
+            </h1>
+            <p class="hero-sub">
+              Organic, sustainable, and impossibly fresh. Taste the difference
+              of produce picked at the peak of perfection.
+            </p>
+            <div class="hero-actions">
+              <a href="#products" class="btn btn-gold"
+                >Shop Fresh <i class="fa-solid fa-arrow-right"></i
+              ></a>
+              <a href="#categories" class="btn btn-ghost">Browse Categories</a>
+            </div>
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <strong>120+</strong><span>Local Farms</span>
+              </div>
+              <div class="hero-stat">
+                <strong>100%</strong><span>Organic Options</span>
+              </div>
+              <div class="hero-stat">
+                <strong>0</strong><span>Compromises</span>
+              </div>
             </div>
           </div>
-          <div class="filter-block">
-            <h4>Availability</h4>
-            <div class="filter-options">
-              <label class="filter-option"><input type="checkbox" id="inStockOnly"> <span>In stock only</span></label>
+        </div>
+        <div
+          class="hero-slide"
+          style="
+            background-image: url(&quot;https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2000&auto=format&fit=crop&quot;);
+          "
+        >
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <span class="hero-eyebrow">Gourmet Selection</span>
+            <h1 class="hero-title">A World of<br /><em>Rare Delicacies</em></h1>
+            <p class="hero-sub">
+              From Japanese wagyu to hand-harvested truffles — an extraordinary
+              collection for extraordinary tables.
+            </p>
+            <div class="hero-actions">
+              <a href="#products" class="btn btn-gold"
+                >Discover Delicacies <i class="fa-solid fa-arrow-right"></i
+              ></a>
+              <a href="#reviews" class="btn btn-ghost">Client Stories</a>
+            </div>
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <strong>40+</strong><span>Countries Sourced</span>
+              </div>
+              <div class="hero-stat">
+                <strong>5★</strong><span>Michelin Trusted</span>
+              </div>
+              <div class="hero-stat">
+                <strong>24/7</strong><span>Concierge</span>
+              </div>
             </div>
           </div>
-          <button class="btn btn-outline btn-block" id="clearFilters">Clear All Filters</button>
-        </aside>
-
-        <!-- Product grid -->
-        <div class="products-grid" id="productsGrid"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== SPECIAL OFFERS ===== -->
-  <section class="section offers" id="offers">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-eyebrow">Limited Time</span>
-        <h2 class="section-title">Special <em>Offers</em></h2>
-        <p class="section-desc">Exclusive privileges reserved for our most discerning clients.</p>
-      </div>
-      <div class="offers-carousel reveal" id="offersCarousel">
-        <div class="offers-track" id="offersTrack"></div>
-        <button class="carousel-arrow carousel-prev" id="offersPrev"><i class="fa-solid fa-chevron-left"></i></button>
-        <button class="carousel-arrow carousel-next" id="offersNext"><i class="fa-solid fa-chevron-right"></i></button>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== BEST SELLERS ===== -->
-  <section class="section bestsellers" id="bestsellers">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-eyebrow">Client Favorites</span>
-        <h2 class="section-title">Best <em>Sellers</em></h2>
-        <p class="section-desc">The most beloved selections, chosen by thousands of discerning clients.</p>
-      </div>
-      <div class="bestsellers-grid" id="bestsellersGrid"></div>
-      <div class="bestsellers-cta reveal">
-        <a href="#products" class="btn btn-gold">View All Products <i class="fa-solid fa-arrow-right"></i></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== REVIEWS ===== -->
-  <section class="section reviews" id="reviews">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-eyebrow">Client Testimonials</span>
-        <h2 class="section-title">Words of <em>Praise</em></h2>
-        <p class="section-desc">Trusted by chefs, connoisseurs, and families who demand the finest.</p>
-      </div>
-      <div class="reviews-slider reveal" id="reviewsSlider">
-        <div class="reviews-track" id="reviewsTrack"></div>
-        <div class="reviews-nav">
-          <button class="reviews-arrow" id="reviewsPrev"><i class="fa-solid fa-arrow-left"></i></button>
-          <div class="reviews-dots" id="reviewsDots"></div>
-          <button class="reviews-arrow" id="reviewsNext"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="hero-nav">
+          <button class="hero-arrow" id="heroPrev">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <div class="hero-dots" id="heroDots"></div>
+          <button class="hero-arrow" id="heroNext">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== NEWSLETTER ===== -->
-  <section class="newsletter" id="newsletter">
-    <div class="container">
-      <div class="newsletter-card reveal">
-        <div class="newsletter-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
-        <h2 class="newsletter-title">Join the <em>Inner Circle</em></h2>
-        <p class="newsletter-desc">Subscribe for private tastings, early access to rare arrivals, and members-only offers.</p>
-        <form class="newsletter-form" id="newsletterForm">
-          <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
-          <button type="submit" class="btn btn-gold">Subscribe <i class="fa-solid fa-paper-plane"></i></button>
-        </form>
-        <p class="newsletter-note"><i class="fa-solid fa-shield-halved"></i> Your privacy is sacred. No spam, ever.</p>
+    <!-- ===== CATEGORIES ===== -->
+    <section class="section categories" id="categories">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-eyebrow">Curated Departments</span>
+          <h2 class="section-title">Shop by <em>Category</em></h2>
+          <p class="section-desc">
+            Eight exquisite departments, each curated by our master buyers.
+          </p>
+        </div>
+        <div class="categories-grid" id="categoriesGrid">
+          <!-- Categories injected by JS -->
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer" id="contact">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="#home" class="logo footer-logo">
-            <span class="logo-mark">LM</span>
-            <span class="logo-text">LUXE <em>MARCHÉ</em></span>
-          </a>
-          <p class="footer-about">A premium grocery destination curating the world's finest ingredients, artisanal products, and rare delicacies since 1998.</p>
-          <div class="footer-social">
-            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
-            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    <!-- ===== FEATURED PRODUCTS ===== -->
+    <section class="section products" id="products">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-eyebrow">Signature Selection</span>
+          <h2 class="section-title">Featured <em>Products</em></h2>
+          <p class="section-desc">
+            Our most coveted items, refined and ready for your table.
+          </p>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters reveal" id="filters">
+          <div class="filter-categories" id="filterCategories">
+            <button class="filter-btn active" data-category="all">All</button>
+          </div>
+          <div class="filter-tools">
+            <div class="filter-group">
+              <label for="sortSelect"
+                ><i class="fa-solid fa-arrow-down-wide-short"></i
+              ></label>
+              <select id="sortSelect">
+                <option value="featured">Featured</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="rating">Top Rated</option>
+                <option value="discount">Biggest Discount</option>
+              </select>
+            </div>
+            <button class="filter-toggle" id="filterToggle">
+              <i class="fa-solid fa-sliders"></i> Filters
+            </button>
           </div>
         </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#categories">Categories</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#offers">Special Offers</a></li>
-            <li><a href="#reviews">Reviews</a></li>
-          </ul>
+
+        <div class="products-layout">
+          <!-- Sidebar filters -->
+          <aside class="filter-sidebar" id="filterSidebar">
+            <div class="filter-block">
+              <h4>Price Range</h4>
+              <div class="price-range">
+                <input type="range" id="priceMin" min="0" max="50" value="0" />
+                <input type="range" id="priceMax" min="0" max="50" value="50" />
+                <div class="price-values">
+                  <span id="priceMinLabel">$0</span>
+                  <span id="priceMaxLabel">$50</span>
+                </div>
+              </div>
+            </div>
+            <div class="filter-block">
+              <h4>Brand</h4>
+              <div class="filter-options" id="brandFilter"></div>
+            </div>
+            <div class="filter-block">
+              <h4>Rating</h4>
+              <div class="filter-options" id="ratingFilter">
+                <label class="filter-option"
+                  ><input type="radio" name="rating" value="0" checked />
+                  <span>All Ratings</span></label
+                >
+                <label class="filter-option"
+                  ><input type="radio" name="rating" value="4.5" />
+                  <span
+                    >4.5 <i class="fa-solid fa-star"></i> & above</span
+                  ></label
+                >
+                <label class="filter-option"
+                  ><input type="radio" name="rating" value="4.7" />
+                  <span
+                    >4.7 <i class="fa-solid fa-star"></i> & above</span
+                  ></label
+                >
+                <label class="filter-option"
+                  ><input type="radio" name="rating" value="4.9" />
+                  <span
+                    >4.9 <i class="fa-solid fa-star"></i> & above</span
+                  ></label
+                >
+              </div>
+            </div>
+            <div class="filter-block">
+              <h4>Availability</h4>
+              <div class="filter-options">
+                <label class="filter-option"
+                  ><input type="checkbox" id="inStockOnly" />
+                  <span>In stock only</span></label
+                >
+              </div>
+            </div>
+            <button class="btn btn-outline btn-block" id="clearFilters">
+              Clear All Filters
+            </button>
+          </aside>
+
+          <!-- Product grid -->
+          <div class="products-grid" id="productsGrid"></div>
         </div>
-        <div class="footer-col">
-          <h4>Client Care</h4>
-          <ul>
-            <li><a href="#">Track Order</a></li>
-            <li><a href="#">Delivery & Returns</a></li>
-            <li><a href="#">Gift Cards</a></li>
-            <li><a href="#">Private Concierge</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Contact Us</h4>
-          <ul class="footer-contact">
-            <li><i class="fa-solid fa-location-dot"></i> 88 Avenue Montaigne, Paris</li>
-            <li><i class="fa-solid fa-phone"></i> +33 1 88 45 20 20</li>
-            <li><i class="fa-solid fa-envelope"></i> concierge@luxemarche.com</li>
-            <li><i class="fa-solid fa-clock"></i> Mon – Sun: 8:00 – 22:00</li>
-          </ul>
-        </div>
       </div>
-      <div class="footer-bottom">
-        <p>© 2026 LUXE MARCHÉ. All rights reserved. Crafted with <i class="fa-solid fa-heart"></i> in Paris.</p>
-        <div class="payment-methods">
-          <span>We accept</span>
-          <i class="fa-brands fa-cc-visa" title="Visa"></i>
-          <i class="fa-brands fa-cc-mastercard" title="Mastercard"></i>
-          <i class="fa-brands fa-cc-amex" title="Amex"></i>
-          <i class="fa-brands fa-cc-paypal" title="PayPal"></i>
-          <i class="fa-brands fa-apple-pay" title="Apple Pay"></i>
+    </section>
+
+    <!-- ===== SPECIAL OFFERS ===== -->
+    <section class="section offers" id="offers">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-eyebrow">Limited Time</span>
+          <h2 class="section-title">Special <em>Offers</em></h2>
+          <p class="section-desc">
+            Exclusive privileges reserved for our most discerning clients.
+          </p>
+        </div>
+        <div class="offers-carousel reveal" id="offersCarousel">
+          <div class="offers-track" id="offersTrack"></div>
+          <button class="carousel-arrow carousel-prev" id="offersPrev">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="carousel-arrow carousel-next" id="offersNext">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
         </div>
       </div>
-    </div>
-  </footer>
+    </section>
 
-  <!-- ===== CART SIDEBAR ===== -->
-  <div class="sidebar-overlay" id="cartOverlay"></div>
-  <aside class="cart-sidebar" id="cartSidebar">
-    <div class="sidebar-header">
-      <h3>Your Cart <span class="sidebar-count" id="cartSidebarCount">(0)</span></h3>
-      <button class="sidebar-close" id="cartClose"><i class="fa-solid fa-xmark"></i></button>
-    </div>
-    <div class="cart-items" id="cartItems"></div>
-    <div class="cart-footer">
-      <div class="cart-total">
-        <span>Subtotal</span>
-        <strong id="cartSubtotal">$0.00</strong>
+    <!-- ===== BEST SELLERS ===== -->
+    <section class="section bestsellers" id="bestsellers">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-eyebrow">Client Favorites</span>
+          <h2 class="section-title">Best <em>Sellers</em></h2>
+          <p class="section-desc">
+            The most beloved selections, chosen by thousands of discerning
+            clients.
+          </p>
+        </div>
+        <div class="bestsellers-grid" id="bestsellersGrid"></div>
+        <div class="bestsellers-cta reveal">
+          <a href="#products" class="btn btn-gold"
+            >View All Products <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
       </div>
-      <div class="cart-total">
-        <span>Delivery</span>
-        <strong id="cartDelivery">Free</strong>
+    </section>
+
+    <!-- ===== REVIEWS ===== -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-eyebrow">Client Testimonials</span>
+          <h2 class="section-title">Words of <em>Praise</em></h2>
+          <p class="section-desc">
+            Trusted by chefs, connoisseurs, and families who demand the finest.
+          </p>
+        </div>
+        <div class="reviews-slider reveal" id="reviewsSlider">
+          <div class="reviews-track" id="reviewsTrack"></div>
+          <div class="reviews-nav">
+            <button class="reviews-arrow" id="reviewsPrev">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <div class="reviews-dots" id="reviewsDots"></div>
+            <button class="reviews-arrow" id="reviewsNext">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
       </div>
-      <div class="cart-total cart-grand">
-        <span>Total</span>
-        <strong id="cartTotal">$0.00</strong>
+    </section>
+
+    <!-- ===== NEWSLETTER ===== -->
+    <section class="newsletter" id="newsletter">
+      <div class="container">
+        <div class="newsletter-card reveal">
+          <div class="newsletter-icon">
+            <i class="fa-solid fa-envelope-open-text"></i>
+          </div>
+          <h2 class="newsletter-title">Join the <em>Inner Circle</em></h2>
+          <p class="newsletter-desc">
+            Subscribe for private tastings, early access to rare arrivals, and
+            members-only offers.
+          </p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input
+              type="email"
+              id="newsletterEmail"
+              placeholder="Enter your email address"
+              required
+            />
+            <button type="submit" class="btn btn-gold">
+              Subscribe <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+          <p class="newsletter-note">
+            <i class="fa-solid fa-shield-halved"></i> Your privacy is sacred. No
+            spam, ever.
+          </p>
+        </div>
       </div>
-      <button class="btn btn-gold btn-block" id="checkoutBtn">Proceed to Checkout <i class="fa-solid fa-arrow-right"></i></button>
-      <button class="btn btn-outline btn-block" id="clearCartBtn">Clear Cart</button>
-    </div>
-  </aside>
+    </section>
 
-  <!-- ===== WISHLIST SIDEBAR ===== -->
-  <div class="sidebar-overlay" id="wishlistOverlay"></div>
-  <aside class="cart-sidebar wishlist-sidebar" id="wishlistSidebar">
-    <div class="sidebar-header">
-      <h3>Your Wishlist <span class="sidebar-count" id="wishlistSidebarCount">(0)</span></h3>
-      <button class="sidebar-close" id="wishlistClose"><i class="fa-solid fa-xmark"></i></button>
-    </div>
-    <div class="cart-items" id="wishlistItems"></div>
-    <div class="cart-footer">
-      <button class="btn btn-gold btn-block" id="wishlistToCart">Add All to Cart</button>
-    </div>
-  </aside>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#home" class="logo footer-logo">
+              <span class="logo-mark">LM</span>
+              <span class="logo-text">LUXE <em>MARCHÉ</em></span>
+            </a>
+            <p class="footer-about">
+              A premium grocery destination curating the world's finest
+              ingredients, artisanal products, and rare delicacies since 1998.
+            </p>
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="Facebook"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="X"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="#" aria-label="Pinterest"
+                ><i class="fa-brands fa-pinterest-p"></i
+              ></a>
+              <a href="#" aria-label="YouTube"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#categories">Categories</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#offers">Special Offers</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Client Care</h4>
+            <ul>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Delivery & Returns</a></li>
+              <li><a href="#">Gift Cards</a></li>
+              <li><a href="#">Private Concierge</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul class="footer-contact">
+              <li>
+                <i class="fa-solid fa-location-dot"></i> 88 Avenue Montaigne,
+                Paris
+              </li>
+              <li><i class="fa-solid fa-phone"></i> +33 1 88 45 20 20</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i> concierge@luxemarche.com
+              </li>
+              <li><i class="fa-solid fa-clock"></i> Mon – Sun: 8:00 – 22:00</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2026 LUXE MARCHÉ. All rights reserved. Crafted with
+            <i class="fa-solid fa-heart"></i> in Paris.
+          </p>
+          <div class="payment-methods">
+            <span>We accept</span>
+            <i class="fa-brands fa-cc-visa" title="Visa"></i>
+            <i class="fa-brands fa-cc-mastercard" title="Mastercard"></i>
+            <i class="fa-brands fa-cc-amex" title="Amex"></i>
+            <i class="fa-brands fa-cc-paypal" title="PayPal"></i>
+            <i class="fa-brands fa-apple-pay" title="Apple Pay"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-  <!-- ===== TOAST ===== -->
-  <div class="toast-container" id="toastContainer"></div>
+    <!-- ===== CART SIDEBAR ===== -->
+    <div class="sidebar-overlay" id="cartOverlay"></div>
+    <aside class="cart-sidebar" id="cartSidebar">
+      <div class="sidebar-header">
+        <h3>
+          Your Cart <span class="sidebar-count" id="cartSidebarCount">(0)</span>
+        </h3>
+        <button class="sidebar-close" id="cartClose">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <span>Subtotal</span>
+          <strong id="cartSubtotal">$0.00</strong>
+        </div>
+        <div class="cart-total">
+          <span>Delivery</span>
+          <strong id="cartDelivery">Free</strong>
+        </div>
+        <div class="cart-total cart-grand">
+          <span>Total</span>
+          <strong id="cartTotal">$0.00</strong>
+        </div>
+        <button class="btn btn-gold btn-block" id="checkoutBtn">
+          Proceed to Checkout <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <button class="btn btn-outline btn-block" id="clearCartBtn">
+          Clear Cart
+        </button>
+      </div>
+    </aside>
 
-  <!-- ===== BACK TO TOP ===== -->
-  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <!-- ===== WISHLIST SIDEBAR ===== -->
+    <div class="sidebar-overlay" id="wishlistOverlay"></div>
+    <aside class="cart-sidebar wishlist-sidebar" id="wishlistSidebar">
+      <div class="sidebar-header">
+        <h3>
+          Your Wishlist
+          <span class="sidebar-count" id="wishlistSidebarCount">(0)</span>
+        </h3>
+        <button class="sidebar-close" id="wishlistClose">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="cart-items" id="wishlistItems"></div>
+      <div class="cart-footer">
+        <button class="btn btn-gold btn-block" id="wishlistToCart">
+          Add All to Cart
+        </button>
+      </div>
+    </aside>
 
-  <script src="js/main.js"></script>
-</body>
+    <!-- ===== TOAST ===== -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
